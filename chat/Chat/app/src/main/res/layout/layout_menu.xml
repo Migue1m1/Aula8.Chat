@@ -1,0 +1,19 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="#673ab7">
+    <ImageButton
+        android:id="@+id/menu_attach_button"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_action_attachment"
+        android:contentDescription="@string/action_attach"/>
+    <ImageButton
+        android:id="@+id/menu_play_stop_button_record"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_action_mic"
+        android:contentDescription="@string/action_mic"/>
+</LinearLayout>
